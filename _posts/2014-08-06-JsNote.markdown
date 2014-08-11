@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Window onError"
+title: "JsNote"
 date: 2014-08-06 11:11
 categories: Web
 ---
