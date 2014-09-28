@@ -6,8 +6,8 @@ categories: WEB
 ---
 
 ## SGML ##
-
+>标准通用标记语言（Standard Generalized Markup Language，SGML）
 
 ## DTD ##
 
-
+>文件型别定义（Document Type Definition）
