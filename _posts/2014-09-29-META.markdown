@@ -9,3 +9,18 @@ categories: WEB
 >- `metadata` **元数据** 关于数据的信息
 >- 规定页面的**描述**、**关键词**、**文档作者**、**最后修改时间**以及其他元数据
 >- **元数据**可用于浏览器如何显示内容或者重新加载页面、利于搜索引擎
+
+
+### name ###
+- generator
+- description
+- keyword
+- author
+
+### http-equiv ###
+- Content-Type ->`text/html;charset=gb2312`
+- Content-Language ->`zh-CN`
+- Refresh ->`5;url=xxxx`
+- Expires ->`Mon,29 Sep 2014 19:20:00 GMT`
+- set-cookie 
+- windows-Target
