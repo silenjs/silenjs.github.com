@@ -1,0 +1,15 @@
+---
+layout: post
+title: "The Same Origin Policy"
+date: 2014-08-15 11:30
+categories: Web
+---
+
+### 同源策略 ###
+> 现在一个Origin中加载文本或者脚本与来自其他Origin中资源交互   
+
+**同源：** 协议-主机名-端口 **都必须相同**   
+
+1. 允许跨域写
+2. 允许跨域嵌资源
+3. 不允许跨域读   
