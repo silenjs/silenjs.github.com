@@ -1,3 +1,7 @@
 name: The Silence Js
 markdown: redcarpet
+<<<<<<< HEAD
+hightlighter: pygments
+=======
 highlighter: pygments
+>>>>>>> dea6f5d0f309ca4a1285ec3c7ff64e8155235e6b
