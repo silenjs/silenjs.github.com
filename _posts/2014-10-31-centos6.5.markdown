@@ -1,0 +1,21 @@
+---
+layout: post
+title: "CentOS"
+date: 2014-10-31 10:51
+categories: System
+---
+
+- 前提准备
+  >vmware虚拟机   
+  >centos6.5   
+  
+- 配置
+  >20G硬盘  
+  >1G内存   
+  >网络适配器NAT  
+
+- 分区
+  1. 引导分区：/boot  ext4 200M
+  2. 交互分区：swap 1025M
+  3. 用户分区：/home ext4 7500M
+
