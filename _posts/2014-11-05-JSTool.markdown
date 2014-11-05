@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'JS Tool'
+date: 2014-11-07 10:20
+categories: WEB
+---
+
+- +-操作符   
+- 进制转换
+	>parseInt(x).toString(y)
+- call/apply
+- 视窗大小/屏幕大小/文档大小
+- dom 克隆
