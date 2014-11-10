@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'centos node'
+date: 2014-11-08 20:39
+catagerious: "Node"
+---
+
+## cenntos6.5 安装Nodejs
+>git 
+>nvm
+
+
+- 自启动 source filename
