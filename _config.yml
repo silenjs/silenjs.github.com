@@ -1,3 +1,7 @@
 name: The Silence Js
 markdown: redcarpet
 hightlighter: pygments
+description: The Silen Blog
+url: silenjs.github.com
+intro: This is Jekyll
+paginate: 8
