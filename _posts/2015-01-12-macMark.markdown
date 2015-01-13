@@ -1,0 +1,10 @@
+---
+layout: post
+title: 'macMark'
+date: 2015-01-13 19:45
+categories: Mac
+---  
+
+### 环境变量 ###
+- user /.bash_profile   
+环境变量报错导致所有命令用不了，使用`export PATH=/usr/bin:/usr/sbin/:/bin:/sbin:/usr/X11R6/bin`可以暂时启用命令，然后再进去修改报错的环境变量
