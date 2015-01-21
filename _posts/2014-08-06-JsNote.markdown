@@ -6,3 +6,10 @@ categories: Web
 ---
 
 ### JsNote ###
+
+- `substring(start，stop)`   
+不支持负数参数，截取位置不包括stop  
+- `substr(start，length)`   
+支持负数参数，但ie8不支持，默认负参数为0 (**非es标准，不推荐使用**)
+- `slice(start，stop)`   
+支持负数，负数表示从字符串结尾处开始计数，截取位置不包括stop
