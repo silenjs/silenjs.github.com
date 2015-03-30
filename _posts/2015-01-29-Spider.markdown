@@ -1,0 +1,18 @@
+---
+layout: post
+title: 'spider'
+date: 2015-01-29 00:22
+categories: PHP
+---
+
+### 正则
+preg_match
+$match
+.
+*
+\s
+\S
+(\s\S)*
+(\s\S)*?
+
+### 字符串处理
