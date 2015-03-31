@@ -1,0 +1,28 @@
+---
+layout: post
+title: 'Ajax'
+date 2015-03-31 10:30
+categories: WEB
+---
+
+###Ajax###
+异步的Javascript与XML，是一项Javascript技术。
+
+###原理###
+XMLHttpRequest
+###怎么用###
+		var xhr=false;
+		if(window.ActiveXObject){
+			try{
+				xhr=new ActiveXObject('Msxml2.XMLHTTP');
+			}catch(e){
+				try{
+					xhr=new ActiveXObject('Microsoft.XMLHTTP');
+				}catch(e){}
+			}
+		}else if(typeof XMLHttpRequest!=='undefined'){
+			xhr = new XMLHttpRequest();
+		}
+		
+		//new (window.XMLHttpRequest||ActiveXObject)('Msxml2.XMLHTTP')
+###跨域###
