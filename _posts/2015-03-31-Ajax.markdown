@@ -6,10 +6,45 @@ categories: WEB
 ---
 
 ###Ajax###
-异步的Javascript与XML，是一项Javascript技术。
-
+异步的Javascript与XML，是通过Javascript与服务器上的Web应用程序通信的技术。
 ###原理###
 XMLHttpRequest
+>
+DOMString   
+Document  
+FormData   
+Blob   
+File   
+ArrayBuffer   
+Access-Control-Allow-Origin
+
+###属性###
+- open([method,]url,async[,user,name])
+- send
+- abort
+- status
+>200 
+- readyState
+>0 UNSENT  
+ 1 OPENED   
+ 2 HEADERS_RECEIVED   
+ 3 LOADING  
+ 4 DONE
+	
+- onreadystatechange
+- response
+- responseText
+- responseType
+- responseXML
+- responseURL
+- setResponseHeader()
+>在启动open操作之后，给指定的HTTP请求头赋值.
+- getAllResponseHeaders()
+>返回所有响应头信息(响应头名和值), 如果响应头还没接受,则返回null. 
+- getResponseHeader()
+>返回指定的响应头的值, 如果响应头还没被接受,或该响应头不存在,则返回null.
+
+
 ###怎么用###
 		var xhr=false;
 		if(window.ActiveXObject){
@@ -20,9 +55,9 @@ XMLHttpRequest
 					xhr=new ActiveXObject('Microsoft.XMLHTTP');
 				}catch(e){}
 			}
-		}else if(typeof XMLHttpRequest!=='undefined'){
+		}else if(typeOf XMLHttpRequest!=='undefined'){
 			xhr = new XMLHttpRequest();
 		}
 		
-		//new (window.XMLHttpRequest||ActiveXObject)('Msxml2.XMLHTTP')
+	//new (window.XMLHttpRequest||ActiveXObject)('Msxml2.XMLHTTP')
 ###跨域###
