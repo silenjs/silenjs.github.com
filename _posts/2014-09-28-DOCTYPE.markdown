@@ -4,12 +4,26 @@ title: "DOCTYPE"
 date: 2014-09-28 20:27
 categories: WEB
 ---
+###DOCTYPE
+**文档类型(Document Type)**
+>文档类型声明，是一种标准通用标记语言的文档类型声明，它的目的是要告诉标准通用标记语言解析器，它应该使用什么样的文档类型定义来解析文档。
 
->文档类型，一个文档类型标记是一种标准通用标记语言的文档类型声明，它的目的是要告诉标准通用标记语言解析器，它应该使用什么样的文档类型定义（DTD）来解析文档。
+### SGML
+**标准通用标记语言（Standard Generalized Markup Language，SGML**）   
+>标准通用标记语言 一种指定文件标记语言或标签集的标准，是一个文件类型定义。
 
-## SGML ##
->标准通用标记语言（Standard Generalized Markup Language，SGML）
+### DTD
+**文件类型定义（Document Type Definition）**
+>
+使用一系列合法的元素来定义文档的结构   
+每一个文档均可携带有关其自身格式的描述   
+独立的团体可以一致地使用某个标准的DTD来交换数据    
+应用程序可以使用某个标准的DTD来验证从歪歪接收到的数据
+使用DTD来验证自身的数据
 
-## DTD ##
 
->文件型别定义（Document Type Definition）
+
+**Keyword**  
+标准通用标记语言   
+文档类型    
+文档类型定义    
