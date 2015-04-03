@@ -41,11 +41,14 @@ XMLHttpRequest2.0
 - responseXML
 - responseURL
 - setResponseHeader()   
->在启动open操作之后，给指定的HTTP请求头赋值.   
+>
+ 在启动open操作之后，给指定的HTTP请求头赋值.   
 - getAllResponseHeaders()   
->返回所有响应头信息(响应头名和值), 如果响应头还没接受,则返回null.
+>
+ 返回所有响应头信息(响应头名和值), 如果响应头还没接受,则返回null.
 - getResponseHeader()   
->返回指定的响应头的值, 如果响应头还没被接受,或该响应头不存在,则返回null.   
+>
+ 返回指定的响应头的值, 如果响应头还没被接受,或该响应头不存在,则返回null.   
 
 
 ###怎么用###
