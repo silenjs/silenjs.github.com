@@ -6,9 +6,10 @@ categories: WEB
 ---
 
 ###Ajax###
-异步的Javascript与XML，是通过Javascript与服务器上的Web应用程序通信的技术。
+异步的Javascript与XML，是通过Javascript与服务器上的Web应用程序通信的技术
+
 ###原理###
-XMLHttpRequest
+XMLHttpRequest2.0   
 >
 DOMString   
 Document  
@@ -23,9 +24,12 @@ Access-Control-Allow-Origin
 - send
 - abort
 - status
->200 
+>
+200 
 - readyState
->0 UNSENT  
+>
+
+0 UNSENT  
  1 OPENED   
  2 HEADERS_RECEIVED   
  3 LOADING  
@@ -60,4 +64,5 @@ Access-Control-Allow-Origin
 		}
 		
 	//new (window.XMLHttpRequest||ActiveXObject)('Msxml2.XMLHTTP')
+
 ###跨域###
