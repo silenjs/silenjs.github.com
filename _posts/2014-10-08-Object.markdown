@@ -6,5 +6,20 @@ categories: WEB
 ---
 
 ## Object ##
-原型继承   
-实例的原型链指向构造函数的原型对象。
+- 原型继承   
+>实例的原型链指向构造函数的原型对象。
+
+所有的原生类型除了null undefined之外，其他的都是对象；
+
+###枚举
+- for in **包含原型链上可枚举的属性 hasOwnProperty**
+- Object.keys(obj) **不包含原型链上的属性**
+- Object.getOwnPropertyNames(o) **包含了对象 o 所有拥有的属性（无论是否可枚举）的名称**   
+
+>利用Object.getPrototypeOf(o)+getOwnPropertyNames(o)可以枚举一个对象的所有属性 **包括不可枚举以及原型链上的所有属性**
+
+###创建新对象
+- 对象初始化器(字面值)
+- 使用构造函数
+- 使用Object.create
+- 

@@ -1,0 +1,13 @@
+---
+layout: post
+title: 'Yeoman'
+date: 2015-04-09 13:00
+categories: WEB
+---
+
+###yeoman
+>
+
+- yo:用于构建特定框架的生态系统的代码工具
+- bower:一个HTML、CSS、Javascript和图片等前端资源的包管理器
+- grunt:开发任务自动化的命令行工具
