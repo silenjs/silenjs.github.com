@@ -11,3 +11,17 @@ categories: WEB
 - yo:用于构建特定框架的生态系统的代码工具
 - bower:一个HTML、CSS、Javascript和图片等前端资源的包管理器
 - grunt:开发任务自动化的命令行工具
+
+####安装前准备
+yo、bower、grunt都运行在nodejs环境下，所以安装前先确保nodejs环境；
+
+####安装开始
+使用npm分别安装bower、grunt、yo（无先后顺序）
+
+####开始开干
+1. 进入到你需要构造项目的目录，直接运行yo命令即可，然后按提示安装具体项目的生成器（生成器是yo的核心，每个不同类型项目有不同的生成器，最简单的时webapp）；
+2. 安装了生成器之后，再继续yo命令，按提示可以执行你之前所安装的所有生成器，然后继续安装提示enter；
+3. 执行生成器之后，就可以看到yeoman帮我们构建的项目文件（譬如app、package.json、GruntFile.js、bower.json等各工具的nodejs配置文件），然后再运行grunt就可以吧grunt注册到该项目上（如果你需要grunt帮助开发的话），然后bower同理。
+4. 开始码；
+	
+
