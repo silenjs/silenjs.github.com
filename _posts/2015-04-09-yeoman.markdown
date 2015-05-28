@@ -12,6 +12,8 @@ categories: WEB
 - bower:一个HTML、CSS、Javascript和图片等前端资源的包管理器
 - grunt:开发任务自动化的命令行工具
 
+
+
 ####安装前准备
 yo、bower、grunt都运行在nodejs环境下，所以安装前先确保nodejs环境；
 
