@@ -6,11 +6,12 @@ categories: WEB
 ---
 
 >- `metadata` **元数据** 关于数据的信息
->- 规定页面的**描述**、**关键词**、**文档作者**、**最后修改时间**以及其他元数据
+>- 规定页面的**字符编码**、**文档描述**、**关键词**、**文档作者**、**最后修改时间**以及其他元数据
 >- **元数据**可用于浏览器如何显示内容或者重新加载页面、利于搜索引擎
 
 
 ### name ###
+- viewport ->`width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no`
 - generator
 - description
 - keyword
