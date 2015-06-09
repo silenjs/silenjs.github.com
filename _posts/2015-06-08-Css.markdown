@@ -21,8 +21,7 @@ description: Web Css
 - 通过float实现横向多列布局
 - float属性
 
-> left-right-none
-
+> left-right-none   
 - 清除浮动(设置受到影响的元素）     
 
 > 对紧邻其后的元素有影响:设置clear属性`clear:both`or`clear:left`or`clear:right`   
