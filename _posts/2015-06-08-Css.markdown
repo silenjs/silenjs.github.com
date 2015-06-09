@@ -19,8 +19,9 @@ description: Web Css
 
 ###浮动(仍然处于标准文档流，占文档空间）   
 - 通过float实现横向多列布局
-- float属性   
-> left-right-none   
+- float属性
+
+> left-right-none 
 - 清除浮动(设置受到影响的元素）   
 > 对紧邻其后的元素有影响:设置clear属性`clear:both`or`clear:left`or`clear:right`   
 > 当子元素都是浮动时，父元素高度受影响:设置width:100%;+overflow:hidden
