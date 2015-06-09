@@ -27,7 +27,10 @@ description: "iconfont"
 - 通过阿里矢量图标准库可以得到**不同格式的图标文件**(如：ttf、woff、eot、svg、png、eps)
 - 通过阿里矢量图标标准库可以直接获取前端应用代码，获得图标对应的调用参数
 
+###同类型产品
+- Bootstrap 的[fontAweson](http://www.bootcss.com/p/font-awesome/#icons-social)也是不错的选择
+
 ---
 *参考：*
-- [iconfont](http://www.iconfont.cn )
+- [iconfont](http://www.iconfont.cn )  
 - [zcool](http://www.zcool.com.cn/)
