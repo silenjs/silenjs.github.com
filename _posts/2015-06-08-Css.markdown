@@ -24,7 +24,7 @@ description: Web Css
 >left-right-none   
 - 清除浮动(设置受到影响的元素）   
 
-> left-right-none 
+> left-right-none    
 
 - 清除浮动(设置受到影响的元素）   
 
@@ -44,8 +44,8 @@ description: Web Css
 
 
 ##盒子模型   
-- 块、行级元素都是盒子模型   
-- 属性：边框border | 外边框margin | 内边框padding | 内容content   
+- 块、行级元素都是盒子模型
+- 属性：边框border | 外边框margin | 内边框padding | 内容content
 - 3D模型：border->content+padding->background-image->background-color->margin
  
 
