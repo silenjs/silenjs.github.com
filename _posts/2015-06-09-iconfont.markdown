@@ -26,3 +26,8 @@ description: "iconfont"
 ###怎么用
 - 通过阿里矢量图标准库可以得到**不同格式的图标文件**(如：ttf、woff、eot、svg、png、eps)
 - 通过阿里矢量图标标准库可以直接获取前端应用代码，获得图标对应的调用参数
+
+---
+*参考：*
+- [iconfont](http://www.iconfont.cn )
+- [zcool](http://www.zcool.com.cn/)
