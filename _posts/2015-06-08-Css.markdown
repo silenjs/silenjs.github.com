@@ -21,12 +21,8 @@ description: Web Css
 - 通过float实现横向多列布局
 - float属性
 
->left-right-none   
-- 清除浮动(设置受到影响的元素）   
-
-> left-right-none    
-
-- 清除浮动(设置受到影响的元素）   
+> left-right-none   
+- 清除浮动(设置受到影响的元素）     
 
 > 对紧邻其后的元素有影响:设置clear属性`clear:both`or`clear:left`or`clear:right`   
 > 当子元素都是浮动时，父元素高度受影响:设置width:100%;+overflow:hidden
@@ -36,8 +32,7 @@ description: Web Css
 - 通过position实现的定位   
 - position属性：   
 
-> 
-  static静态   
+> static静态   
   relative相对:*相对于原有位置进行偏移* | *仍处于标准文档流* | *拥有偏移属性（top left right)和z-index属性*    
   absolute绝对:*相对于包含块的定位（没有已定位的祖先元素：以html为定位基准，多个已定位祖先元素：以最近祖先元素为基准）* | *脱离了标准文档流* | *拥有偏移属性和z-index属性*    
   fixed固定:
