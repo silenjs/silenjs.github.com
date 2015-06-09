@@ -22,7 +22,9 @@ description: Web Css
 - float属性
 
 > left-right-none 
-- 清除浮动(设置受到影响的元素）   
+
+- 清除浮动(设置受到影响的元素）
+
 > 对紧邻其后的元素有影响:设置clear属性`clear:both`or`clear:left`or`clear:right`   
 > 当子元素都是浮动时，父元素高度受影响:设置width:100%;+overflow:hidden
 
