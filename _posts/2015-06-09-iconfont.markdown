@@ -1,0 +1,28 @@
+---
+layout: post
+title: "IconFont"
+date: 2015-06-09 18:35
+categories: "Web"
+description: "iconfont"
+---
+
+###什么是iconfont
+> 用字体文件取代图片文件，来展示图标、特殊字体等元素的方法
+
+###为什么用iconfont
+- 体积比图片文件小
+- 更好的可维护性（因为是矢量，所以拉伸不变形；颜色可以自行更换，支持一些CSS3对文字的效果）
+- 通过base64置于CSS内，从而不产生图片的http请求
+
+###有什么确定
+- 只支持图片上是纯色
+- 制作Icon Font自然而然要增加重构的成本
+
+###怎样得到iconfont
+- 对于木有设计细胞、习惯工具开发的同学来说，最迫切的期望是能媲美Grunt|Yeoman类的工具可以使用   
+  推荐阿里矢量图标准库[iconfont](http://www.iconfont.cn )
+- 阿里矢量图标准库的使用就不细说了 [operating guide](http://www.iconfont.cn/help/platform.html)
+
+###怎么用
+- 通过阿里矢量图标准库可以得到**不同格式的图标文件**(如：ttf、woff、eot、svg、png、eps)
+- 通过阿里矢量图标标准库可以直接获取前端应用代码，获得图标对应的调用参数
