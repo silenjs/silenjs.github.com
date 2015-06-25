@@ -1,8 +1,8 @@
 ---
-layout: posts
+layout: post
 title: "REST"
 date: 2015-06-25 14:40
-categories: WEB
+categories: "WEB"
 ---
 
 ###表征性状态传输
