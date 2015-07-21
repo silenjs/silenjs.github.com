@@ -1,0 +1,18 @@
+---
+layout: post
+title: BOM
+date: 2015-07-21 23:26
+categories: "WEB"
+---
+
+###Navigator
+
+###Location
+
+###History
+
+###Frames
+
+###Screen
+
+###Document
