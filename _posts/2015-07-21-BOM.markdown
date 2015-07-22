@@ -1,9 +1,37 @@
 ---
 layout: post
-title: BOM
+title: ECMAScript BOM DOM
 date: 2015-07-21 23:26
 categories: "WEB"
 ---
+
+> 为了搞清楚ECMAScript BOM DOM 这些专业术语之间的关系，我们需要知道Javascript是怎么实现的.
+
+**一个完整的Javascript实现由以下三个不同的部分组成:**
+
+- ECMAScript
+- DOM(Document Object Model)
+- BOM(Browser Object Model)
+
+###ECMAScript
+
+> ECMAScript can provide core scripting capabilities for a variety of host environments,and therefore the core scripting language is specified…apart from any particular host environment   
+(ECMAScript 可以为各种各样的宿主环境提供核心的脚本功能，因此该核心脚本语言的规范是不依赖特定宿主环境的)
+
+
+除了DOM和BOM，各浏览器对于ECMAScript接口都有自己实现方案。   
+Web浏览器被认为是ECMAScript的一个宿主环境，但不是唯一的宿主环境，其他可能的宿主：
+
+- Photoshop    
+- Acrobat   
+- Yahoo widget engine   
+- Windows scripting host   
+- Nombas ScriptEase 
+
+###DOM
+
+文档对象模型(DOM)是HTML和XML的一个应用程序接口。   
+dom把整个文档以树节点的层次结构来呈现,通过DOMAPI可以删除、添加、替换文档中的节点。
 
 ###Navigator
 
