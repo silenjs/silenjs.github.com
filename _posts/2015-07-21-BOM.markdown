@@ -33,6 +33,19 @@ Web浏览器被认为是ECMAScript的一个宿主环境，但不是唯一的宿�
 文档对象模型(DOM)是HTML和XML的一个应用程序接口。   
 dom把整个文档以树节点的层次结构来呈现,通过DOMAPI可以删除、添加、替换文档中的节点。
 
+####DOM Level:
+
+1. 由两个模块组成：DOM Core | DOM HTML 
+   >**DOM Core** 提供基于XML文档结构的映射，以便简化对文档随意的访问和操作   
+    **DOM HTML** 在DOM Core 的基础上，新增HTML对象以及方法，是DOM Core 的扩展
+2. 引入了多个DOM模块来处理新类型接口。
+   > **DOM View** 定义了追踪文档多个不同视图的接口(例如添加css样式前后的文档)   
+     **DOM Events** 定义了文档事件以及文档事件处理接口   
+     **DOM Style** 定义了基于CSS的样式处理接口   
+     **DOM Traversal and Range** 定义了遍历和操作文档结构接口  
+
+
+      
 ###Navigator
 
 ###Location
